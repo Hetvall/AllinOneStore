@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(24, 116, 192);
+    border-radius: 10px;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    height: 80px;
+}
+
+.icon-header {
+    width: 40px;
+    height: 40px;
+}
+
+.filter {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 115px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 10px;
+    border: 1px solid;
+    padding: 50px;
+}
+
+text {
+    font-size: small;
+}
+
+h1 {
+    color: rgb(24, 116, 192);
+    text-align: left;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: -10px;
+}
+
+span {
+    margin-top: -10px;
+    gap: 60px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+}
