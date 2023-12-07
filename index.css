@@ -1,63 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 body {
     background-color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 header {
     background-color: rgb(24, 116, 192);
     border-radius: 10px;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     font-family: cursive;
     text-align: center;
-    height: 80px;
-}
-
-.icon-header {
-    width: 40px;
-    height: 40px;
+    height: 110px;
+    padding-top: 10px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .filter {
+    display: flex;
     cursor: pointer;
     font-size: 14px;
     padding: 5px 10px;
     width: 115px;
     border-radius: 20px;
     border: 1px solid;
-    margin-right: auto;
-    margin-left: 150px;
+    margin-left: 1400px;
+    margin-top: -70px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .products {
-    display: grid;
-    grid-template-columns: repeat(1, 3fr);
-    grid-gap: 10px;
-    border: 1px solid;
     padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 118px;
+    border-spacing: 20px;
+    width: 94.5%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 650px;
+    margin-bottom: 20px;
+    border-width: 2px;
 }
 
 text {
+    display: flex;
     font-size: small;
 }
 
 h1 {
-    color: rgb(24, 116, 192);
-    text-align: left;
-    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
 }
 
 h2 {
-    margin-top: -10px;
+    display: inline;
+    background-color: green;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
 }
 
+h2:hover {
+    background-color: white;
+    color: green;
+}
+
+
 span {
-    margin-top: -10px;
-    gap: 60px;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: small;
 }
 
 img {
-    width: 120px;
-    height: 120px;
+    max-width: 100%;
+    max-height: 160px;
+    object-fit: contain;
 }
 
 footer {
